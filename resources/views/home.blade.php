@@ -2,16 +2,15 @@
 
 @section('content')
 <div class="container">
-  <div>
-    <h2>Portfolio - Milton Aguirre</h2>
-    <p>Web and mobile developer</p>
+  <h2 class="subtitle">Portfolio - Milton Aguirre</h2>
+  <p class="epigraph">web & mobile developer</p>
+  <hr>
+  <br/>
+  <div class="text-center">
+    <h1 class="title">Web & mobile development</h1>
   </div>
-  <hr><br/>
-  <div class="col-10 text-center">
-    <h1 class="text-title">Web and mobile development</h1>
-  </div>
-  <div class="m-5">
-    <p>I am a professional dedicated to the development of web and mobile applications using the latest technologies on the market</p>
+  <div class="epigraph text-center px-5 py-2">
+    <p>Make your ideas come true with me</p>
   </div>
 </div>
 @endsection

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Portfolio - Milton Aguirre</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ config('app.name') }}
+                    PORTFOLIO
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -38,20 +38,20 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
+                      <li id="aHome" class="nav-item">
                           <a class="nav-link" href="/home">Home</a>
                       </li>
-                      <li class="nav-item">
+                      <li id="aProjects" class="nav-item">
                           <a class="nav-link" href="/my-projects">My projects</a>
                       </li>
-                      <li class="nav-item">
+                      <li id="aSkills" class="nav-item">
                           <a class="nav-link" href="/my-skills">My skills</a>
                       </li>
-                      <li class="nav-item">
+                      <li id="aAbout" class="nav-item">
                           <a class="nav-link" href="/about">About me</a>
                       </li>
                       </li>
-                      <li class="nav-item">
+                      <li id="aContact" class="nav-item">
                           <a class="nav-link" href="/contact">Work with me!</a>
                       </li>
                     </ul>

@@ -2,20 +2,18 @@
 
 @section('content')
 <div class="container">
-  <div>
-    <h2>Contact</h2>
-    <p>Web and mobile developer</p>
-  </div>
+    <h2 class="subtitle">Contact</h2>
+    <p class="epigraph">Web & Mobile developer</p>
   <hr><br/>
   <div class="m-5">
     <h5>
       Hello Friend! Would you like to contact me to develop or collaborate with your project?
     </h5>
     <h5>
-      Send me a message and I'll get back to you shortly!
+      If you’d like to chat about a project please fill in the form below and I’ll get back within 1-2 days.
     </h5>
   </div>
-  <div class="card bg-dark col-10  p-3">
+  <div class="card-dark col-10  p-1">
     <form class="col-12" action="index.html" method="post">
       <div class="offset-1 justify-content-center">
         <div class="col-10 m-2">

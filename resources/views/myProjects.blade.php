@@ -3,8 +3,8 @@
 @section('content')
 <div class="container">
   <div>
-    <h2>My Projects</h2>
-    <p>Web and mobile developer</p>
+    <h2 class="subtitle">My Projects</h2>
+    <p class="epigraph">Web & Mobile developer</p>
   </div>
   <hr><br/>
   <div class="m-5">

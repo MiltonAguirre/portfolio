@@ -13,3 +13,40 @@ require('./bootstrap');
  */
 
 require('./components/Example');
+
+//Navbar
+var pathname = window.location.pathname;
+$(".border border-light rounded mx-2").css('font-size', "18px")
+              .removeClass("border border-light rounded mx-3");
+switch (pathname) {
+  case "/home":
+    $("#aHome").addClass("border border-light rounded mx-2");
+    $("#aHome").css('font-size', "18px")
+    break;
+  case "/my-skills":
+    $("#aSkills").addClass("border border-light rounded mx-2");
+    $("#aSkills").css('font-size', "18px")
+
+    break;
+  case "/my-projects":
+    $("#aProjects").addClass("border border-light rounded mx-2");
+    $("#aProjects").css('font-size', "18px")
+
+    break;
+  case "/about":
+    $("#aAbout").addClass("border border-light rounded mx-2");
+    $("#aAbout").css('font-size', "18px")
+
+    break;
+  case "/contact":
+    $("#aContact").addClass("border border-light rounded mx-2");
+    $("#aContact").css('font-size', "18px")
+
+    break;
+  default:
+
+}
+// 
+// $(document).ready(function(){
+//
+// });
